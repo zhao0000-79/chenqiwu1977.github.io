@@ -300,7 +300,6 @@ IPTV4K,http://ccbcfan.gicp.net:4022/udp/239.76.252.35:9000#http://183.215.116.13
 辽宁卫视超清,http://112.50.243.8/PLTV/88888888/224/3221226881/1.m3u8#http://39.135.17.182:6610/PLTV/88888888/224/3221225717/2/index.m3u8#http://39.134.59.91/PLTV/88888888/224/3221226461/index.m3u8#http://39.134.59.91/PLTV/88888888/224/3221226425/index.m3u8#http://39.135.15.210:6610/PLTV/88888888/224/3221225717/2/index.m3u8#http://39.134.52.153/PLTV/88888888/224/3221226425/1.m3u8
 黑 龙 江 超清,http://112.50.243.8/PLTV/88888888/224/3221225940/1.m3u8#http://ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226239/1.m3u8#http://ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221225889/1.m3u8#http://111.48.37.20:6060/bestv/00000008000000000001000000000891/index.m3u8#http://otttv.bj.chinamobile.com/PLTV/8888888/224/3221226239/1.m3u8#http://117.148.187.13/PLTV/88888888/224/3221226201/index.m3u8#http://112.17.40.140/PLTV/88888888/224/3221226201/index.m3u8#http://39.134.59.91/PLTV/88888888/224/3221226478/index.m3u8#http://39.135.17.182:6610/PLTV/88888888/224/3221225758/2/index.m3u8#http://111.20.105.61:6060/yinhe/2/ch00000090990000001030/index.m3u8?virtualDomain=yinhe.live_hls.zte.com#http://ott.fj.chinamobile.com/PLTV/88888888/224/3221225940/index.m3u8
 河北卫视超清,http://39.135.17.182:6610/PLTV/88888888/224/3221225713/2/index.m3u8#http://39.135.15.70:6610/PLTV/88888888/224/3221225713/1/index.m3u8?fmt=ts2hls#http://ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226247/index.m3u8
-
 河南卫视超清,http://39.135.17.182:6610/PLTV/88888888/224/3221225709/2/index.m3u8#http://39.135.15.70:6610/PLTV/88888888/224/3221225709/1/index.m3u8?fmt=ts2hls
 东南卫视超清,http://39.135.38.165:6610/000000001000/1000000002000009263/1.m3u8?#http://ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221225876/1.m3u8#http://39.135.17.182:6610/PLTV/88888888/224/3221225739/2/index.m3u8#http://39.135.15.70:6610/PLTV/88888888/224/3221225739/1/index.m3u8?fmt=ts2hls#http://live1.nty.tv189.com/live/tm-dongnantv-4000k.m3u8
 厦门卫视超清,http://112.50.243.8/PLTV/88888888/224/3221226781/1.m3u8#http://112.5.223.36/ott.fj.chinamobile.com/PLTV/88888888/224/3221226781/1.m3u8
@@ -312,16 +311,12 @@ IPTV4K,http://ccbcfan.gicp.net:4022/udp/239.76.252.35:9000#http://183.215.116.13
 云南卫视超清,http://39.130.206.132:6410/gitv_live/G_YUNNAN-HD/G_YUNNAN-HD.m3u8#http://hwapi.yunshicloud.com/8xughf/e0bx15.m3u8
 青海卫视超清,http://live.gemgdtv.com/channel3/sd/live.m3u8
 广东体育,https://116.77.72.195/streams/d/gdty/playlist.m3u8
-
 冬奥纪实超清,http://[2409:8087:3400:20:1000::137]/ott.fj.chinamobile.com/PLTV/88888888/224/3221225944/1.m3u8#http://39.134.67.144/PLTV/88888888/224/3221225693/index.m3u8#http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8#http://39.134.59.91/PLTV/88888888/224/3221226472/index.m3u8#http://39.135.17.182:6610/PLTV/88888888/224/3221225768/2/index.m3u8#http://117.169.124.14:6610/ysten-businessmobile/live/HD-8000k-1080P-beijingjishi/1.m3u8
 上海纪实超清,http://39.134.67.144/PLTV/88888888/224/3221225694/index.m3u8#http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8#http://39.135.17.182:6610/PLTV/88888888/224/3221225767/2/index.m3u8#http://39.135.32.39:6610/000000001000/1000000001000016545/index.m3u8?#http://111.48.37.20:6060/bestv/00000008000000000001000000000902/index.m3u8
 金鹰纪实超清,http://39.135.15.210:6610/PLTV/88888888/224/3221225671/2/index.m3u8#http://39.134.59.91/PLTV/88888888/224/3221226459/index.m3u8
 全纪实,http://111.20.106.28:6610/bestv/2/ch00000090990000001122/index.m3u8?&virtualDomain=bestv.live_hls.zte.com
-
 上海新闻综合,http://117.156.28.21/PLTV/88888888/224/3221225683/index.m3u8#http://111.20.109.68:6610/bestv/2/ch00000090990000001082/2300001/index.m3u8?&virtualDomain=bestv.live_hls.zte.com
-
 东方影视,http://111.20.109.68:6610/bestv/2/ch00000090990000001087/2300001/index.m3u8?&virtualDomain=bestv.live_hls.zte.com
-
 上海第一财经,http://player.ioioz.com/18/tv.php?tv=shydbst&id=dycjhd#http://111.48.37.20:6060/bestv/00000008000000000001000000000903/index.m3u8
 上海艺术人文,http://huaweicdn.hb.chinamobile.com/PLTV/88888888/224/3221225976/3.m3u8
 上海都市频道,http://117.156.28.21/PLTV/88888888/224/3221225661/index.m3u8#http://player.ioioz.com/18/tv.php?tv=shydbst&id=shylhd#http://111.48.37.20:6060/bestv/00000008000000000001000000000906/index.m3u8
@@ -413,7 +408,6 @@ Newtv精品体育,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225674/
 NewTV农业致富,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225683/index.m3u8#http://39.134.65.162/PLTV/88888888/224/3221225552/index.m3u8
 NewTV搏击,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225680/index.m3u8
 NewTV中国功夫,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8
-
 黑莓电影超清,http://[2409:8087:3400:20:1000::137]/ott.fj.chinamobile.com/PLTV/88888888/224/3221225891/1.m3u8#http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229010/index.m3u8#http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
 黑莓动画超清,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225744/index.m3u8
 DOXTV,http://39.135.15.70:6610/PLTV/88888888/224/3221226048/1/index.m3u8?fmt=ts2hls
