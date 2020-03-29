@@ -37,7 +37,7 @@ CCTV4K超高清,http://live-wcloud-cdn.ysp.cctv.cn/tlivecloud-cdn.ysp.cctv.cn/00
 山东卫视,http://live-wcloud-cdn.ysp.cctv.cn/tlivecloud-cdn.ysp.cctv.cn/001/2000294803.m3u8
 四川卫视,http://live-wcloud-cdn.ysp.cctv.cn/tlivecloud-cdn.ysp.cctv.cn/001/2000295003.m3u8
 重庆卫视,http://live-wcloud-cdn.ysp.cctv.cn/tlivecloud-cdn.ysp.cctv.cn/001/2000297803.m3u8
-$c_start台  湾$c_end
+$c_start台    湾$c_end
 民視HD,http://58.99.33.2:1935/liveedge2/LANmrsaD_5_1/playlist.m3u8?checkCode=37050688asdfsdfsadf&aa=as
 台視HD,http://58.99.33.2:1935/liveedge2/LANmrsaD_7_1/playlist.m3u8?checkCode=37050688asdfsdfsadf&aa=as
 中視HD,http://58.99.33.2:1935/liveedge2/LANmrsaD_9_1/playlist.m3u8?checkCode=37050688asdfsdfsadf&aa=as
