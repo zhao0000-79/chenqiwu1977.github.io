@@ -571,3 +571,5 @@ Nat Geo Wild,http://livecdnh1.tvanywhere.ae/hls/nat_geo_wild/05.m3u8
 LOVE NATURE 4K UHD,http://dmitry-tv.ru/his/itv_zabava/CH_LOVENATURE4K_HLSUHD.m3u8
 寰宇新闻台,http://125.227.198.89:8011
 卫视电影台,http://49.233.148.32/dl/lttv/bstv.php?id=wsmovie
+私人影院,tvbus://3UDxSDBsNf7wbYsxBLm5SuD3ZRXLavzGGRseREr62WmGuxBPUr
+有线电影,tvbus://1mUDxpwLRow1LxnZ2LBc7TuAyuJe4X5i1TXHU3G144keRDZ1y8
