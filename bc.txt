@@ -172,19 +172,6 @@ iHOT爱历史,http://101.71.255.229:6610/zjhs/2/10121/index.m3u8?virtualDomain=z
 五星体育HD,http://112.29.151.141/azure-live.bestvcdn.com.cnlive/program/live/ssty/4000000/mnf.m3u8
 新视觉HD,http://keonline.shanghai.liveplay.qq.com/live/program/live/xsjhd/4000000/mnf.m3u8
 哈哈炫动HD,http://112.29.151.141/azure-live.bestvcdn.com.cnlive/program/live/hhxdhd/4000000/mnf.m3u8
-峨眉电影,http://115.223.3.159/CDN-out.iqy.sc96655.com/tslive/c212_scc_20190618_5nvsifwn_original_r10/c212_scc_20190618_5nvsifwn_original_r10.m3u8&
-CDTV1,http://60.255.149.251/tslive/c211_scc_20190617_t0x01q5a_original_r10/cdtv1_4000.m3u8&
-CDTV2,http://60.255.149.251/tslive/c211_scc_20190617_t0x01q5a_original_r10/cdtv2_4000.m3u8&
-CDTV3,http://60.255.149.251/tslive/c211_scc_20190617_t0x01q5a_original_r10/cdtv3_4000.m3u8&
-CDTV4,http://60.255.149.251/tslive/c211_scc_20190617_t0x01q5a_original_r10/cdtv4_4000.m3u8&
-CDTV5,http://60.255.149.251/tslive/c211_scc_20190617_t0x01q5a_original_r10/cdtv5_4000.m3u8&
-四川文化旅游,http://60.255.149.251/tslive/c211_scc_20190617_ubvkckj4_original_r10/c211_scc_20190617_ubvkckj4_original_r10.m3u8&
-四川经济,http://60.255.149.251/tslive/c212_scc_20190617_ry4zkwol_original_r10/c212_scc_20190617_ry4zkwol_original_r10.m3u8&
-四川新闻资讯,http://60.255.149.251/tslive/c211_scc_20190618_o4cr4fzk_original_r10/c211_scc_20190618_o4cr4fzk_original_r10.m3u8&
-四川影视文化,http://60.255.149.251/tslive/c212_scc_20190618_eqfvkj53_original_r10/c212_scc_20190618_eqfvkj53_original_r10.m3u8&
-四川妇女儿童,http://60.255.149.251/tslive/c213_scc_20190618_giaorvjb_original_r10/c213_scc_20190618_giaorvjb_original_r10.m3u8&
-四川公共,http://60.255.149.251/tslive/c214_scc_20190618_zg1qrd4w_original_r10/c214_scc_20190618_zg1qrd4w_original_r10.m3u8&
-重庆新闻高清,http://219.153.252.50/PLTV/88888888/224/3221225531/chunklist.m3u8
 求索记录HD,http://125.210.152.18:9090/live/QSJLHD_H265.m3u8?uidgemini=z1J6SSaoVQNY9lEOPH==
 求索生活HD,http://125.210.152.12:8060/live/QSSH_1200.m3u8?uidgemini=z1J6SSaoVQNY9lEOPH==
 求索动物HD,http://125.210.152.12:8060/live/QSDW_1200.m3u8?uidgemini=z1J6SSaoVQNY9lEOPH==
@@ -569,7 +556,5 @@ Nat Geo,http://livecdnh1.tvanywhere.ae/hls/nat_geo/05.m3u8
 Nat Geo People,http://livecdnh1.tvanywhere.ae/hls/nat_geo_people/05.m3u8
 Nat Geo Wild,http://livecdnh1.tvanywhere.ae/hls/nat_geo_wild/05.m3u8
 LOVE NATURE 4K UHD,http://dmitry-tv.ru/his/itv_zabava/CH_LOVENATURE4K_HLSUHD.m3u8
-寰宇新闻台,http://125.227.198.89:8011
-卫视电影台,http://49.233.148.32/dl/lttv/bstv.php?id=wsmovie
-私人影院,tvbus://3UDxSDBsNf7wbYsxBLm5SuD3ZRXLavzGGRseREr62WmGuxBPUr
-有线电影,tvbus://1mUDxpwLRow1LxnZ2LBc7TuAyuJe4X5i1TXHU3G144keRDZ1y8
+
+
