@@ -134,8 +134,8 @@ Proxy:
   cipher: auto
   tls: true
   network: ws
-  ws-path:
-  Host:
+  ws-path: /
+  Host: chenqiwu-v2ray-eu.herokuapp.com
 
 - name: "Heroku_V2ray_us"
   type: vmess
@@ -146,8 +146,8 @@ Proxy:
   cipher: auto
   tls: true
   network: ws
-  ws-path:
-  Host:
+  ws-path: /
+  Host: chenqiwu-v2ray-eu.herokuapp.com
 
 - name: "Free_V2ray_3"
   type: vmess
