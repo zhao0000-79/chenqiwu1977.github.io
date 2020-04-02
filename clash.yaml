@@ -115,7 +115,7 @@ Proxy:
 # 配置开始
 - name: "HK_V2ray_aliyun"
   type: vmess
-  server: www.cdniptv321.ml
+  server: 
   port: 443
   uuid: 4a38fb96-47f2-496d-b697-7aa812df61e2
   alterId: 66
