@@ -125,49 +125,7 @@ Proxy:
   ws-path: /7868352e/
   Host: www.cdniptv321.ml
 
-- name: "Heroku_V2ray_eu"
-  type: vmess
-  server: chenqiwu-v2ray-eu.herokuapp.com
-  port: 443
-  uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path:
-  Host:
 
-- name: "Heroku_V2ray_us"
-  type: vmess
-  server: chenqiwu-v2ray-eu.herokuapp.com
-  port: 443
-  uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path:
-  Host:
-
-- name: "Free_V2ray_3"
-  type: vmess
-  server: 4d0e5248-015c-494e-92e5-38cb6be611e7
-  port: 443
-  uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
-  alterId: 2
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /df40c300/
-  Host:
-
-- name: "Trojan节点的主机测试"
-  type: trojan
-  server: www.v2rayssr.com
-  port: 443
-  password: v2rayssr.com
-
- 
 ###############################################################配置分割线
 
 # 代理组策略
@@ -178,10 +136,6 @@ Proxy Group:
   type: url-test
   proxies:
     - "HK_V2ray_aliyun"
-    - "Heroku_V2ray_eu"
-    - "Heroku_V2ray_us"
-    - "Free_V2ray_3"
-    - "Trojan节点的主机测试"
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
 
@@ -191,10 +145,6 @@ Proxy Group:
   proxies:
     - "自动节点选择"
     - "HK_V2ray_aliyun"
-    - "Heroku_V2ray_eu"
-    - "Heroku_V2ray_us"
-    - "Free_V2ray_3"
-    - "Trojan节点的主机测试"
 # 白名单模式 PROXY，黑名单模式 DIRECT
 - name: "Final"
   type: select
@@ -213,20 +163,11 @@ Proxy Group:
   proxies:
     - "PROXY"
     - "HK_V2ray_aliyun"
-    - "Heroku_V2ray_eu"
-    - "Heroku_V2ray_us"
-    - "Free_V2ray_3"
-    - "Trojan节点的主机测试"
 # 大陆流媒体面向港澳台限定服务
 - name: "HKMTMedia"
   type: select
   proxies:
     - "DIRECT"
-    - "HK_V2ray_aliyun"
-    - "Heroku_V2ray_eu"
-    - "Heroku_V2ray_us"
-    - "Free_V2ray_3"
-    - "Trojan节点的主机测试"
 # 运营商及声名狼藉网站劫持
 - name: "Hijacking"
   type: select
