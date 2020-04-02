@@ -1,0 +1,155 @@
+https://www.v2rayssr.com/
+https://freenom.com/
+https://cloudflare.com/
+http://ping.chinaz.com/
+https://tempmailo.com/
+
+
+
+
+
+第三方工具访问谷歌云VM实例，设置密码
+
+基于debain9的操作，若是centos7请看文档第四版操作的说明
+1、使用gcp自带的浏览器shell登录vm实例
+2、首先切换用户为root用户
+sudo -i
+3、为root用户设置密码
+passwd root
+输入两次root用户密码
+Enter new UNIX password: 
+Retype new UNIX password:
+控制台会提示设置成功
+4、修改配置文件
+vi /etc/ssh/sshd_config 
+需要修改的配置项目如下，在32行和56行：
+PermitRootLogin yes
+PasswordAuthentication yes
+若使用centos则执行
+vim /etc/ssh/sshd_config 
+输入vi 修改
+PermitRootLogin yes
+PasswordAuthentication yes
+按esc 退出，输入:wq保存并退出vim
+执行重启服务器的操作
+reboot
+即可生效，并且无需再执行/etc/init.d/ssh restart这个命令
+
+
+
+开启 SSH 权限
+CentOS 和 Debian 通用，输入以下两条命令
+
+sed -i 's/PermitRootLogin no/PermitRootLogin yes/g' /etc/ssh/sshd_config
+sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
+
+
+5、重启服务
+
+/etc/init.d/ssh restart
+
+添加
+ClientAliveInterval 60
+ClientAliveCountMax 3
+
+
+
+
+
+
+安装Ttrojan
+
+1，安装好 curl、wget
+yum -y install wget    ##ContOS Yum 安装 wget
+apt-get install wget   ##Debian Ubuntu 安装 wget
+apt-get update -y && apt-get install curl -y    ##Ubuntu/Debian 系统安装 Curl 方法
+yum update -y && yum install curl -y            ##Centos 系统安装 Curl 方法
+
+ 1种方法. 
+     有些 VPS 需要安装 XZ 压缩工具      apt-get install xz-utils
+     Trojan 一键脚本代码     bash <(curl -s -L https://github.com/V2RaySSR/Trojan/raw/master/Trojan.sh)
+   
+    2种方法.
+     脚本    wget -N --no-check-certificate -q -O trojan_install.sh "https://raw.githubusercontent.com/V2RaySSR/Trojan/master/trojan_install.sh" && chmod +x trojan_install.sh && bash trojan_install.sh
+     集成BBR加速
+
+trojan 服务端配置文件路径如下，如需修改内容，修改以下文件即可
+/usr/src/trojan/server.conf
+修改完成后，重启 trojan 服务端即可，同时客户端的密码也要同步修改
+systemctl restart trojan
+
+
+
+
+
+安装bbr四合一脚本
+wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+
+
+
+
+安装V2ray
+
+
+1，安装好 curl、wget
+yum -y install wget    ##ContOS Yum 安装 wget
+apt-get install wget   ##Debian Ubuntu 安装 wget
+apt-get update -y && apt-get install curl -y    ##Ubuntu/Debian 系统安装 Curl 方法
+yum update -y && yum install curl -y            ##Centos 系统安装 Curl 方法
+
+2，一键脚本：
+wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/wulabing/V2Ray_ws-tls_bash_onekey/master/install.sh" && chmod +x install.sh && bash install.sh
+先安装BBR-PLUS加速
+
+
+
+
+阿里云方法：
+v2ray一键脚本：bash <(curl -s -L https://git.io/v2ray.sh)
+加速一键脚本：wget "https://github.com/chiakge/Linux-NetSpeed/raw/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+免费验证码网站：https://yunduanxin.net/US-Phone-Number/
+
+方法1，卸载阿里云盾远程连接到阿里云云服务器或者轻量应用服务器后，执行以下代码卸载阿里云盾：
+wget http://update.aegis.aliyun.com/download/uninstall.shchmod +x uninstall.sh./uninstall.shwget http://update.aegis.aliyun.com/download/quartz_uninstall.shchmod +x quartz_uninstall.sh./quartz_uninstall.sh
+删除阿里云盾文件残留卸载阿里云盾后，执行如下代码删除阿里云盾文件残留：
+pkill aliyun-servicerm -fr /etc/init.d/agentwatch /usr/sbin/aliyun-servicerm -rf /usr/local/aegis*
+屏蔽阿里云盾IP最后就是屏蔽阿里云盾的IP
+iptables -I INPUT -s 140.205.201.0/28 -j DROPiptables -I INPUT -s 140.205.201.16/29 -j DROPiptables -I INPUT -s 140.205.201.32/28 -j DROPiptables -I INPUT -s 140.205.225.192/29 -j DROPiptables -I INPUT -s 140.205.225.200/30 -j DROPiptables -I INPUT -s 140.205.225.184/29 -j DROPiptables -I INPUT -s 140.205.225.183/32 -j DROPiptables -I INPUT -s 140.205.225.206/32 -j DROPiptables -I INPUT -s 140.205.225.205/32 -j DROPiptables -I INPUT -s 140.205.225.195/32 -j DROPiptables -I INPUT -s 140.205.225.204/32 -j DROP
+
+
+
+方法2，卸载阿里云盾
+远程连接到阿里云云服务器或者轻量应用服务器后，执行以下代码卸载阿里云盾：
+wget -N --no-check-certificate http://update.aegis.aliyun.com/download/uninstall.sh && chmod +x uninstall.sh && bash uninstall.sh
+wget -N --no-check-certificate http://update.aegis.aliyun.com/download/quartz_uninstall.sh && chmod +x quartz_uninstall.sh && bash quartz_uninstall.sh
+删除阿里云盾文件残留
+卸载阿里云盾后，执行如下代码删除阿里云盾文件残留：
+pkill aliyun-service
+rm -fr /etc/init.d/agentwatch /usr/sbin/aliyun-service
+rm -rf /usr/local/aegis*
+屏蔽阿里云盾IP
+最后就是屏蔽阿里云盾的IP：
+iptables -I INPUT -s 140.205.201.0/28 -j DROP
+iptables -I INPUT -s 140.205.201.16/29 -j DROP
+iptables -I INPUT -s 140.205.201.32/28 -j DROP
+iptables -I INPUT -s 140.205.225.192/29 -j DROP
+iptables -I INPUT -s 140.205.225.200/30 -j DROP
+iptables -I INPUT -s 140.205.225.184/29 -j DROP
+iptables -I INPUT -s 140.205.225.183/32 -j DROP
+iptables -I INPUT -s 140.205.225.206/32 -j DROP
+iptables -I INPUT -s 140.205.225.205/32 -j DROP
+iptables -I INPUT -s 140.205.225.195/32 -j DROP
+iptables -I INPUT -s 140.205.225.204/32 -j DROP
+
+
+
+
+
+
+
+
+Trojan官方发行的客户端：https://github.com/trojan-gfw/trojan/releases
+V2rayN:https://github.com/2dust/v2rayN/releases/
+ V2rayN-core:https://github.com/v2ray/v2ray-core/releases
+Trojan官方安卓：https://github.com/trojan-gfw/igniter/releases
+V2rayNG官方安卓：https://github.com/2dust/v2rayNG/releases
